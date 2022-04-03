@@ -122,6 +122,7 @@ D:\glowing-octo-fiesta\CleanArch.WebApi\bin\Debug\net6.0\FluentValidation.Depend
 D:\glowing-octo-fiesta\CleanArch.WebApi\bin\Debug\net6.0\Humanizer.dll
 D:\glowing-octo-fiesta\CleanArch.WebApi\bin\Debug\net6.0\MediatR.dll
 D:\glowing-octo-fiesta\CleanArch.WebApi\bin\Debug\net6.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+D:\glowing-octo-fiesta\CleanArch.WebApi\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 D:\glowing-octo-fiesta\CleanArch.WebApi\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
 D:\glowing-octo-fiesta\CleanArch.WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
 D:\glowing-octo-fiesta\CleanArch.WebApi\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll

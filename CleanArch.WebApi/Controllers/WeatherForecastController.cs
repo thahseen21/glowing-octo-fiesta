@@ -2,12 +2,14 @@ using CleanArch.Application.Common.Model;
 using CleanArch.Application.Feature.WeatherForecast;
 using CleanArch.Application.Feature.WeatherForecast.Commands.UpsertWeatherForecast;
 using CleanArch.Application.Feature.WeatherForecast.Queries.GetWeatherForecast;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CleanArch.WebApi.Controllers
 {
     [ApiController]
     [Route("[controller]")]
+    [Authorize]
     public class WeatherForecastController : ApiControllerBase
     {
         [HttpGet("[action]")]
