@@ -19,4 +19,8 @@
     <ProjectReference Include="..\CleanArch.Infrastructure\CleanArch.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Filters\" />
+  </ItemGroup>
+
 </Project>

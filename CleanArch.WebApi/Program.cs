@@ -1,6 +1,9 @@
 using CleanArch.Application;
 using CleanArch.Domain.Common.Configuration;
 using CleanArch.Infrastructure;
+using CleanArch.WebApi.Filters;
+using FluentValidation.AspNetCore;
+using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,6 +21,19 @@ builder.Services.AddApplication();
 
 #region Infrasturcture
 builder.Services.AddInfrastructure(appSettings);
+#endregion
+
+#region Filters
+builder.Services.AddControllers()
+    .AddFluentValidation()
+    .AddMvcOptions(
+        o =>
+        {
+            // When using FluentValidation, clear the default model validations
+            o.ModelValidatorProviders.Clear();
+            o.ModelMetadataDetailsProviders.Clear();
+            o.Filters.Add(new ApiExceptionFilterAttribute());
+        }).AddJsonOptions(options => options.JsonSerializerOptions.Converters.Add(new JsonStringEnumConverter()));
 #endregion
 
 
