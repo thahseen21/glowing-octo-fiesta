@@ -7,21 +7,20 @@ namespace CleanArch.Application.Feature.WeatherForecast.Commands.UpsertWeatherFo
 {
     public class UpsertWeatherForecastHandler : IRequestHandler<UpsertWeatherForecastCommand, WeatherForecastVM>
     {
-        private readonly IWeatherForecastRepository _weatherForecastRepository;
+        private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
 
-        public UpsertWeatherForecastHandler(IWeatherForecastRepository weatherForecastRepository, IMapper mapper)
+        public UpsertWeatherForecastHandler(IUnitOfWork unitOfWork, IMapper mapper)
         {
-            this._weatherForecastRepository = weatherForecastRepository;
+            this._unitOfWork = unitOfWork;
             this._mapper = mapper;
         }
 
         public async Task<WeatherForecastVM> Handle(UpsertWeatherForecastCommand command, CancellationToken cancellationToken)
         {
             var weatherForecast = _mapper.Map<WeatherForecastTbl>(command);
-            var weather = await _weatherForecastRepository.UpsertWeatherForecast(weatherForecast);
+            var weather = await _unitOfWork.WeatherForecastRepository.UpsertWeatherForecast(weatherForecast);
             return _mapper.Map<WeatherForecastVM>(weather);
         }
     }
-
 }

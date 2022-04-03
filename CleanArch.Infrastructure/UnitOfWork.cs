@@ -1,11 +1,6 @@
 ﻿using CleanArch.Application.Common.Contracts.Repositories;
 using Microsoft.AspNetCore.Http;
-using System;
-using System.Collections.Generic;
 using System.Data;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CleanArch.Infrastructure
 {
@@ -15,7 +10,7 @@ namespace CleanArch.Infrastructure
         IDbTransaction transaction = null!;
         private readonly IHttpContextAccessor httpContextAccessor;
 
-        #region PrivateRepositories
+        #region Private Repositories
         private IWeatherForecastRepository weatherForecastRepository { get; set; } = null!;
         #endregion
 
@@ -31,9 +26,9 @@ namespace CleanArch.Infrastructure
             {
                 if (this.weatherForecastRepository == null)
                 {
-                    this.weatherForecastRepository = (IWeatherForecastRepository)httpContextAccessor.HttpContext!.RequestServices.GetService(typeof(IWeatherForecastRepository)); ;
+                    this.weatherForecastRepository = (IWeatherForecastRepository)httpContextAccessor.HttpContext!.RequestServices.GetService(typeof(IWeatherForecastRepository))!;
                 }
-                return weatherForecastRepository;
+                return weatherForecastRepository!;
             }
         }
 
@@ -63,7 +58,7 @@ namespace CleanArch.Infrastructure
         {
             if (transaction != null)
                 transaction.Dispose();
-            transaction = null;
+            transaction = null!;
         }
 
         public void Rollback()

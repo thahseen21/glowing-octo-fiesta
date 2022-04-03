@@ -7,18 +7,18 @@ namespace CleanArch.Application.Feature.WeatherForecast.Queries.GetWeatherForeca
 {
     public class GetWeatherForecastHandler : IRequestHandler<GetWeatherForecastQuery, PaginatedResultVm<WeatherForecastVM>>
     {
-        private readonly IWeatherForecastRepository _weatherForecastRepository;
+        private readonly IUnitOfWork _unitOfWork;
         private readonly IMapper _mapper;
 
-        public GetWeatherForecastHandler(IWeatherForecastRepository weatherForecastRepository, IMapper mapper)
+        public GetWeatherForecastHandler(IUnitOfWork unitOfWork, IMapper mapper)
         {
-            this._weatherForecastRepository = weatherForecastRepository;
+            this._unitOfWork = unitOfWork;
             this._mapper = mapper;
         }
 
         public async Task<PaginatedResultVm<WeatherForecastVM>> Handle(GetWeatherForecastQuery request, CancellationToken cancellationToken)
         {
-            var weatherForecastList = await _weatherForecastRepository.GetWeatherForecastList();
+            var weatherForecastList = await _unitOfWork.WeatherForecastRepository.GetWeatherForecastList();
             return _mapper.Map<PaginatedResultVm<WeatherForecastVM>>(weatherForecastList);
         }
     }

@@ -1,7 +1,6 @@
 ﻿using CleanArch.Application.Common.Mappings;
 using CleanArch.Application.Common.Utils;
 using FluentValidation;
-using FluentValidation.AspNetCore;
 using MediatR;
 using Microsoft.Extensions.DependencyInjection;
 using System.Reflection;
@@ -24,10 +23,10 @@ namespace CleanArch.Application
             #endregion
 
             #region FluentValidation
-            services.AddMvc().AddFluentValidation(fv =>
-            {
-                fv.DisableDataAnnotationsValidation = true;
-            });
+            //services.AddMvc().AddFluentValidation(fv =>
+            //{
+            //    fv.DisableDataAnnotationsValidation = true;
+            //});
             #endregion
 
             #region Localisation
