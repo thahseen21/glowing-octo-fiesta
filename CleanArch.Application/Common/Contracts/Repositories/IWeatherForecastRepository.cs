@@ -1,10 +1,11 @@
-﻿using CleanArch.Domain.Entities;
+﻿using CleanArch.Application.Common.Model;
+using CleanArch.Domain.Entities;
 
 namespace CleanArch.Application.Common.Contracts.Repositories
 {
     public interface IWeatherForecastRepository
     {
-        Task<List<WeatherForecastTbl>> GetWeatherForecastList();
-        Task<bool> UpsertWeatherForecast(WeatherForecastTbl weatherForecast);
+        Task<PaginatedResultVm<WeatherForecastTbl>> GetWeatherForecastList();
+        Task<WeatherForecastTbl> UpsertWeatherForecast(WeatherForecastTbl weatherForecast);
     }
 }

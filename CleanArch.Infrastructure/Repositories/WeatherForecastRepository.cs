@@ -1,4 +1,5 @@
 ﻿using CleanArch.Application.Common.Contracts.Repositories;
+using CleanArch.Application.Common.Model;
 using CleanArch.Domain.Entities;
 using Dapper;
 using Microsoft.EntityFrameworkCore;
@@ -14,17 +15,18 @@ namespace CleanArch.Infrastructure.Repositories
         readonly string UpsertWeatherForecastStoreProcedure = "[dbo].[UpsertWeatherForecast]";
 
 
-        public async Task<List<WeatherForecastTbl>> GetWeatherForecastList()
+        public async Task<PaginatedResultVm<WeatherForecastTbl>> GetWeatherForecastList()
         {
-            var weatherList = new List<WeatherForecastTbl>();
+            var weatherList = new PaginatedResultVm<WeatherForecastTbl>();
             using (var weatherListDbResult = await Connection.QueryMultipleAsync(GetWeatherForecastListStoreProcedure, null, null, null, CommandType.StoredProcedure).ConfigureAwait(false))
             {
-                weatherList = weatherListDbResult.Read<WeatherForecastTbl>().ToList();
+                weatherList.Items = weatherListDbResult.Read<WeatherForecastTbl>().ToList();
+                weatherList.TotalCount = weatherList.Items.Count();
             }
             return weatherList;
         }
 
-        public async Task<bool> UpsertWeatherForecast(WeatherForecastTbl weatherForecast)
+        public async Task<WeatherForecastTbl> UpsertWeatherForecast(WeatherForecastTbl weatherForecast)
         {
             await Connection.ExecuteAsync(UpsertWeatherForecastStoreProcedure, new
             {
@@ -34,7 +36,7 @@ namespace CleanArch.Infrastructure.Repositories
                 Date = weatherForecast.Date
             }, null, null, CommandType.StoredProcedure).ConfigureAwait(false);
 
-            return true;
+            return weatherForecast;
         }
     }
 }

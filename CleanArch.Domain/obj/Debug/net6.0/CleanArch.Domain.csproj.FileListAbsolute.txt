@@ -22,3 +22,15 @@ C:\Users\vasundharask\source\repos\BaseSetup\CleanArch.Domain\obj\Debug\net6.0\C
 C:\Users\vasundharask\source\repos\BaseSetup\CleanArch.Domain\obj\Debug\net6.0\refint\CleanArch.Domain.dll
 C:\Users\vasundharask\source\repos\BaseSetup\CleanArch.Domain\obj\Debug\net6.0\CleanArch.Domain.pdb
 C:\Users\vasundharask\source\repos\BaseSetup\CleanArch.Domain\obj\Debug\net6.0\ref\CleanArch.Domain.dll
+D:\glowing-octo-fiesta\CleanArch.Domain\bin\Debug\net6.0\CleanArch.Domain.deps.json
+D:\glowing-octo-fiesta\CleanArch.Domain\bin\Debug\net6.0\CleanArch.Domain.dll
+D:\glowing-octo-fiesta\CleanArch.Domain\bin\Debug\net6.0\CleanArch.Domain.pdb
+D:\glowing-octo-fiesta\CleanArch.Domain\obj\Debug\net6.0\CleanArch.Domain.csproj.AssemblyReference.cache
+D:\glowing-octo-fiesta\CleanArch.Domain\obj\Debug\net6.0\CleanArch.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\glowing-octo-fiesta\CleanArch.Domain\obj\Debug\net6.0\CleanArch.Domain.AssemblyInfoInputs.cache
+D:\glowing-octo-fiesta\CleanArch.Domain\obj\Debug\net6.0\CleanArch.Domain.AssemblyInfo.cs
+D:\glowing-octo-fiesta\CleanArch.Domain\obj\Debug\net6.0\CleanArch.Domain.csproj.CoreCompileInputs.cache
+D:\glowing-octo-fiesta\CleanArch.Domain\obj\Debug\net6.0\CleanArch.Domain.dll
+D:\glowing-octo-fiesta\CleanArch.Domain\obj\Debug\net6.0\refint\CleanArch.Domain.dll
+D:\glowing-octo-fiesta\CleanArch.Domain\obj\Debug\net6.0\CleanArch.Domain.pdb
+D:\glowing-octo-fiesta\CleanArch.Domain\obj\Debug\net6.0\ref\CleanArch.Domain.dll

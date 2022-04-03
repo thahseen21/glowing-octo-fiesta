@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vasundharask\\source\\repos\\BaseSetup\\CleanArch.Application\\CleanArch.Application.csproj": {}
+    "D:\\glowing-octo-fiesta\\CleanArch.Application\\CleanArch.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vasundharask\\source\\repos\\BaseSetup\\CleanArch.Application\\CleanArch.Application.csproj": {
+    "D:\\glowing-octo-fiesta\\CleanArch.Application\\CleanArch.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vasundharask\\source\\repos\\BaseSetup\\CleanArch.Application\\CleanArch.Application.csproj",
+        "projectUniqueName": "D:\\glowing-octo-fiesta\\CleanArch.Application\\CleanArch.Application.csproj",
         "projectName": "CleanArch.Application",
-        "projectPath": "C:\\Users\\vasundharask\\source\\repos\\BaseSetup\\CleanArch.Application\\CleanArch.Application.csproj",
+        "projectPath": "D:\\glowing-octo-fiesta\\CleanArch.Application\\CleanArch.Application.csproj",
         "packagesPath": "C:\\Users\\vasundharask\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vasundharask\\source\\repos\\BaseSetup\\CleanArch.Application\\obj\\",
+        "outputPath": "D:\\glowing-octo-fiesta\\CleanArch.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -32,8 +32,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\vasundharask\\source\\repos\\BaseSetup\\CleanArch.Domain\\CleanArch.Domain.csproj": {
-                "projectPath": "C:\\Users\\vasundharask\\source\\repos\\BaseSetup\\CleanArch.Domain\\CleanArch.Domain.csproj"
+              "D:\\glowing-octo-fiesta\\CleanArch.Domain\\CleanArch.Domain.csproj": {
+                "projectPath": "D:\\glowing-octo-fiesta\\CleanArch.Domain\\CleanArch.Domain.csproj"
               }
             }
           }
@@ -92,14 +92,14 @@
         }
       }
     },
-    "C:\\Users\\vasundharask\\source\\repos\\BaseSetup\\CleanArch.Domain\\CleanArch.Domain.csproj": {
+    "D:\\glowing-octo-fiesta\\CleanArch.Domain\\CleanArch.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vasundharask\\source\\repos\\BaseSetup\\CleanArch.Domain\\CleanArch.Domain.csproj",
+        "projectUniqueName": "D:\\glowing-octo-fiesta\\CleanArch.Domain\\CleanArch.Domain.csproj",
         "projectName": "CleanArch.Domain",
-        "projectPath": "C:\\Users\\vasundharask\\source\\repos\\BaseSetup\\CleanArch.Domain\\CleanArch.Domain.csproj",
+        "projectPath": "D:\\glowing-octo-fiesta\\CleanArch.Domain\\CleanArch.Domain.csproj",
         "packagesPath": "C:\\Users\\vasundharask\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vasundharask\\source\\repos\\BaseSetup\\CleanArch.Domain\\obj\\",
+        "outputPath": "D:\\glowing-octo-fiesta\\CleanArch.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

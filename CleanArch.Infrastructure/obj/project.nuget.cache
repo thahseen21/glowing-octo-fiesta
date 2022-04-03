@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "opiOBjeE8YNxPV36IbJXm+WLY83Vn0rKimgWu/hJlQzbihR4fXJ9QaVcHTP0K6fkvHMkosKRj5f7m40U8cNqLg==",
+  "dgSpecHash": "xp1mxG7Cnyx7qmEfz1Z6lwZvJ+D5tWasUwHfd6dL0Zc3cEVZ3gJqefWBy9YeAgtzxXamZiRs06viCDmSVp7zeg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vasundharask\\source\\repos\\BaseSetup\\CleanArch.Infrastructure\\CleanArch.Infrastructure.csproj",
+  "projectFilePath": "D:\\glowing-octo-fiesta\\CleanArch.Infrastructure\\CleanArch.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vasundharask\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\vasundharask\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

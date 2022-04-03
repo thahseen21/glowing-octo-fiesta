@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vasundharask\\source\\repos\\BaseSetup\\CleanArch.Domain\\CleanArch.Domain.csproj",
+      "projectUniqueName": "D:\\glowing-octo-fiesta\\CleanArch.Domain\\CleanArch.Domain.csproj",
       "projectName": "CleanArch.Domain",
-      "projectPath": "C:\\Users\\vasundharask\\source\\repos\\BaseSetup\\CleanArch.Domain\\CleanArch.Domain.csproj",
+      "projectPath": "D:\\glowing-octo-fiesta\\CleanArch.Domain\\CleanArch.Domain.csproj",
       "packagesPath": "C:\\Users\\vasundharask\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vasundharask\\source\\repos\\BaseSetup\\CleanArch.Domain\\obj\\",
+      "outputPath": "D:\\glowing-octo-fiesta\\CleanArch.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

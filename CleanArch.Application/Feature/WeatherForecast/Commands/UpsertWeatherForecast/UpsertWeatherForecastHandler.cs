@@ -10,7 +10,7 @@ namespace CleanArch.Application.Feature.WeatherForecast.Commands.UpsertWeatherFo
         private readonly IWeatherForecastRepository _weatherForecastRepository;
         private readonly IMapper _mapper;
 
-        public UpsertWeatherForecastHandler(IWeatherForecastRepository weatherForecastRepository,IMapper mapper)
+        public UpsertWeatherForecastHandler(IWeatherForecastRepository weatherForecastRepository, IMapper mapper)
         {
             this._weatherForecastRepository = weatherForecastRepository;
             this._mapper = mapper;

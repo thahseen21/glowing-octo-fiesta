@@ -1,3 +1,4 @@
+using CleanArch.Application.Common.Model;
 using CleanArch.Application.Feature.WeatherForecast;
 using CleanArch.Application.Feature.WeatherForecast.Commands.UpsertWeatherForecast;
 using CleanArch.Application.Feature.WeatherForecast.Queries.GetWeatherForecast;
@@ -10,7 +11,7 @@ namespace CleanArch.WebApi.Controllers
     public class WeatherForecastController : ApiControllerBase
     {
         [HttpGet("[action]")]
-        public async Task<IList<WeatherForecastVM>> GetWeatherForecast()
+        public async Task<PaginatedResultVm<WeatherForecastVM>> GetWeatherForecast()
         {
             return await Mediator.Send(new GetWeatherForecastQuery());
         }
@@ -20,8 +21,8 @@ namespace CleanArch.WebApi.Controllers
         {
             UpsertWeatherForecastCommand command = new UpsertWeatherForecastCommand()
             {
-                Date = DateTime.Now,
-                TemperatureC = 10,
+                Date = weatherForecast.Date,
+                TemperatureC = weatherForecast.TemperatureC,
                 Summary = weatherForecast.Summary
             };
             return Ok(await Mediator.Send(command));

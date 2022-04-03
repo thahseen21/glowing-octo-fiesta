@@ -1,10 +1,11 @@
 ﻿using AutoMapper;
 using CleanArch.Application.Common.Contracts.Repositories;
+using CleanArch.Application.Common.Model;
 using MediatR;
 
 namespace CleanArch.Application.Feature.WeatherForecast.Queries.GetWeatherForecast
 {
-    public class GetWeatherForecastHandler : IRequestHandler<GetWeatherForecastQuery, List<WeatherForecastVM>>
+    public class GetWeatherForecastHandler : IRequestHandler<GetWeatherForecastQuery, PaginatedResultVm<WeatherForecastVM>>
     {
         private readonly IWeatherForecastRepository _weatherForecastRepository;
         private readonly IMapper _mapper;
@@ -15,10 +16,10 @@ namespace CleanArch.Application.Feature.WeatherForecast.Queries.GetWeatherForeca
             this._mapper = mapper;
         }
 
-        public async Task<List<WeatherForecastVM>> Handle(GetWeatherForecastQuery request, CancellationToken cancellationToken)
+        public async Task<PaginatedResultVm<WeatherForecastVM>> Handle(GetWeatherForecastQuery request, CancellationToken cancellationToken)
         {
             var weatherForecastList = await _weatherForecastRepository.GetWeatherForecastList();
-            return _mapper.Map<List<WeatherForecastVM>>(weatherForecastList);
+            return _mapper.Map<PaginatedResultVm<WeatherForecastVM>>(weatherForecastList);
         }
     }
 }

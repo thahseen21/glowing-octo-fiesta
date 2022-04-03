@@ -12,6 +12,11 @@ namespace CleanArch.Application
     {
         public static IServiceCollection AddApplication(this IServiceCollection services)
         {
+
+            services.AddAutoMapper(Assembly.GetExecutingAssembly());
+            services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
+            services.AddMediatR(Assembly.GetExecutingAssembly());
+
             #region AutoMapper
             var mappingConfig = new AutoMapperConfig().Configure();
             var mapper = mappingConfig.CreateMapper();
@@ -29,10 +34,6 @@ namespace CleanArch.Application
             services.AddLocalization();
             services.AddSingleton(typeof(IErrorLocalizer), typeof(ErrorLocalizer));
             #endregion
-
-            services.AddAutoMapper(Assembly.GetExecutingAssembly());
-            services.AddValidatorsFromAssembly(Assembly.GetExecutingAssembly());
-            services.AddMediatR(Assembly.GetExecutingAssembly());
 
             return services;
         }

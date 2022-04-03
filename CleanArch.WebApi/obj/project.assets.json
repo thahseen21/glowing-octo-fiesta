@@ -2409,11 +2409,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vasundharask\\source\\repos\\BaseSetup\\CleanArch.WebApi\\CleanArch.WebApi.csproj",
+      "projectUniqueName": "D:\\glowing-octo-fiesta\\CleanArch.WebApi\\CleanArch.WebApi.csproj",
       "projectName": "CleanArch.WebApi",
-      "projectPath": "C:\\Users\\vasundharask\\source\\repos\\BaseSetup\\CleanArch.WebApi\\CleanArch.WebApi.csproj",
+      "projectPath": "D:\\glowing-octo-fiesta\\CleanArch.WebApi\\CleanArch.WebApi.csproj",
       "packagesPath": "C:\\Users\\vasundharask\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vasundharask\\source\\repos\\BaseSetup\\CleanArch.WebApi\\obj\\",
+      "outputPath": "D:\\glowing-octo-fiesta\\CleanArch.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -2434,11 +2434,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\vasundharask\\source\\repos\\BaseSetup\\CleanArch.Application\\CleanArch.Application.csproj": {
-              "projectPath": "C:\\Users\\vasundharask\\source\\repos\\BaseSetup\\CleanArch.Application\\CleanArch.Application.csproj"
+            "D:\\glowing-octo-fiesta\\CleanArch.Application\\CleanArch.Application.csproj": {
+              "projectPath": "D:\\glowing-octo-fiesta\\CleanArch.Application\\CleanArch.Application.csproj"
             },
-            "C:\\Users\\vasundharask\\source\\repos\\BaseSetup\\CleanArch.Infrastructure\\CleanArch.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\vasundharask\\source\\repos\\BaseSetup\\CleanArch.Infrastructure\\CleanArch.Infrastructure.csproj"
+            "D:\\glowing-octo-fiesta\\CleanArch.Infrastructure\\CleanArch.Infrastructure.csproj": {
+              "projectPath": "D:\\glowing-octo-fiesta\\CleanArch.Infrastructure\\CleanArch.Infrastructure.csproj"
             }
           }
         }
