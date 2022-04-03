@@ -1,0 +1,24 @@
+D:\Sample - Base Setup\CleanArch.WebApi\CleanArch.Domain\bin\Debug\net6.0\CleanArch.Domain.deps.json
+D:\Sample - Base Setup\CleanArch.WebApi\CleanArch.Domain\bin\Debug\net6.0\CleanArch.Domain.dll
+D:\Sample - Base Setup\CleanArch.WebApi\CleanArch.Domain\bin\Debug\net6.0\CleanArch.Domain.pdb
+D:\Sample - Base Setup\CleanArch.WebApi\CleanArch.Domain\obj\Debug\net6.0\CleanArch.Domain.csproj.AssemblyReference.cache
+D:\Sample - Base Setup\CleanArch.WebApi\CleanArch.Domain\obj\Debug\net6.0\CleanArch.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sample - Base Setup\CleanArch.WebApi\CleanArch.Domain\obj\Debug\net6.0\CleanArch.Domain.AssemblyInfoInputs.cache
+D:\Sample - Base Setup\CleanArch.WebApi\CleanArch.Domain\obj\Debug\net6.0\CleanArch.Domain.AssemblyInfo.cs
+D:\Sample - Base Setup\CleanArch.WebApi\CleanArch.Domain\obj\Debug\net6.0\CleanArch.Domain.csproj.CoreCompileInputs.cache
+D:\Sample - Base Setup\CleanArch.WebApi\CleanArch.Domain\obj\Debug\net6.0\CleanArch.Domain.dll
+D:\Sample - Base Setup\CleanArch.WebApi\CleanArch.Domain\obj\Debug\net6.0\refint\CleanArch.Domain.dll
+D:\Sample - Base Setup\CleanArch.WebApi\CleanArch.Domain\obj\Debug\net6.0\CleanArch.Domain.pdb
+D:\Sample - Base Setup\CleanArch.WebApi\CleanArch.Domain\obj\Debug\net6.0\ref\CleanArch.Domain.dll
+C:\Users\vasundharask\source\repos\BaseSetup\CleanArch.Domain\bin\Debug\net6.0\CleanArch.Domain.deps.json
+C:\Users\vasundharask\source\repos\BaseSetup\CleanArch.Domain\bin\Debug\net6.0\CleanArch.Domain.dll
+C:\Users\vasundharask\source\repos\BaseSetup\CleanArch.Domain\bin\Debug\net6.0\CleanArch.Domain.pdb
+C:\Users\vasundharask\source\repos\BaseSetup\CleanArch.Domain\obj\Debug\net6.0\CleanArch.Domain.csproj.AssemblyReference.cache
+C:\Users\vasundharask\source\repos\BaseSetup\CleanArch.Domain\obj\Debug\net6.0\CleanArch.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vasundharask\source\repos\BaseSetup\CleanArch.Domain\obj\Debug\net6.0\CleanArch.Domain.AssemblyInfoInputs.cache
+C:\Users\vasundharask\source\repos\BaseSetup\CleanArch.Domain\obj\Debug\net6.0\CleanArch.Domain.AssemblyInfo.cs
+C:\Users\vasundharask\source\repos\BaseSetup\CleanArch.Domain\obj\Debug\net6.0\CleanArch.Domain.csproj.CoreCompileInputs.cache
+C:\Users\vasundharask\source\repos\BaseSetup\CleanArch.Domain\obj\Debug\net6.0\CleanArch.Domain.dll
+C:\Users\vasundharask\source\repos\BaseSetup\CleanArch.Domain\obj\Debug\net6.0\refint\CleanArch.Domain.dll
+C:\Users\vasundharask\source\repos\BaseSetup\CleanArch.Domain\obj\Debug\net6.0\CleanArch.Domain.pdb
+C:\Users\vasundharask\source\repos\BaseSetup\CleanArch.Domain\obj\Debug\net6.0\ref\CleanArch.Domain.dll

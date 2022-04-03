@@ -1,0 +1,37 @@
+D:\Sample - Base Setup\CleanArch.WebApi\CleanArch.Infrastructure\bin\Debug\net6.0\CleanArch.Infrastructure.deps.json
+D:\Sample - Base Setup\CleanArch.WebApi\CleanArch.Infrastructure\bin\Debug\net6.0\CleanArch.Infrastructure.dll
+D:\Sample - Base Setup\CleanArch.WebApi\CleanArch.Infrastructure\bin\Debug\net6.0\CleanArch.Infrastructure.pdb
+D:\Sample - Base Setup\CleanArch.WebApi\CleanArch.Infrastructure\bin\Debug\net6.0\CleanArch.Application.dll
+D:\Sample - Base Setup\CleanArch.WebApi\CleanArch.Infrastructure\bin\Debug\net6.0\CleanArch.Application.pdb
+D:\Sample - Base Setup\CleanArch.WebApi\CleanArch.Infrastructure\obj\Debug\net6.0\CleanArch.Infrastructure.csproj.AssemblyReference.cache
+D:\Sample - Base Setup\CleanArch.WebApi\CleanArch.Infrastructure\obj\Debug\net6.0\CleanArch.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Sample - Base Setup\CleanArch.WebApi\CleanArch.Infrastructure\obj\Debug\net6.0\CleanArch.Infrastructure.AssemblyInfoInputs.cache
+D:\Sample - Base Setup\CleanArch.WebApi\CleanArch.Infrastructure\obj\Debug\net6.0\CleanArch.Infrastructure.AssemblyInfo.cs
+D:\Sample - Base Setup\CleanArch.WebApi\CleanArch.Infrastructure\obj\Debug\net6.0\CleanArch.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Sample - Base Setup\CleanArch.WebApi\CleanArch.Infrastructure\obj\Debug\net6.0\CleanArch.Infrastructure.csproj.CopyComplete
+D:\Sample - Base Setup\CleanArch.WebApi\CleanArch.Infrastructure\obj\Debug\net6.0\CleanArch.Infrastructure.dll
+D:\Sample - Base Setup\CleanArch.WebApi\CleanArch.Infrastructure\obj\Debug\net6.0\refint\CleanArch.Infrastructure.dll
+D:\Sample - Base Setup\CleanArch.WebApi\CleanArch.Infrastructure\obj\Debug\net6.0\CleanArch.Infrastructure.pdb
+D:\Sample - Base Setup\CleanArch.WebApi\CleanArch.Infrastructure\obj\Debug\net6.0\ref\CleanArch.Infrastructure.dll
+D:\Sample - Base Setup\CleanArch.WebApi\CleanArch.Infrastructure\bin\Debug\net6.0\CleanArch.Domain.dll
+D:\Sample - Base Setup\CleanArch.WebApi\CleanArch.Infrastructure\bin\Debug\net6.0\CleanArch.Domain.pdb
+C:\Users\vasundharask\source\repos\BaseSetup\CleanArch.Infrastructure\bin\Debug\net6.0\CleanArch.Infrastructure.deps.json
+C:\Users\vasundharask\source\repos\BaseSetup\CleanArch.Infrastructure\bin\Debug\net6.0\CleanArch.Infrastructure.runtimeconfig.json
+C:\Users\vasundharask\source\repos\BaseSetup\CleanArch.Infrastructure\bin\Debug\net6.0\CleanArch.Infrastructure.dll
+C:\Users\vasundharask\source\repos\BaseSetup\CleanArch.Infrastructure\bin\Debug\net6.0\CleanArch.Infrastructure.pdb
+C:\Users\vasundharask\source\repos\BaseSetup\CleanArch.Infrastructure\bin\Debug\net6.0\CleanArch.Application.dll
+C:\Users\vasundharask\source\repos\BaseSetup\CleanArch.Infrastructure\bin\Debug\net6.0\CleanArch.Domain.dll
+C:\Users\vasundharask\source\repos\BaseSetup\CleanArch.Infrastructure\bin\Debug\net6.0\CleanArch.Application.pdb
+C:\Users\vasundharask\source\repos\BaseSetup\CleanArch.Infrastructure\bin\Debug\net6.0\CleanArch.Domain.pdb
+C:\Users\vasundharask\source\repos\BaseSetup\CleanArch.Infrastructure\bin\Debug\net6.0\en-US\CleanArch.Application.resources.dll
+C:\Users\vasundharask\source\repos\BaseSetup\CleanArch.Infrastructure\obj\Debug\net6.0\CleanArch.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\vasundharask\source\repos\BaseSetup\CleanArch.Infrastructure\obj\Debug\net6.0\CleanArch.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vasundharask\source\repos\BaseSetup\CleanArch.Infrastructure\obj\Debug\net6.0\CleanArch.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\vasundharask\source\repos\BaseSetup\CleanArch.Infrastructure\obj\Debug\net6.0\CleanArch.Infrastructure.AssemblyInfo.cs
+C:\Users\vasundharask\source\repos\BaseSetup\CleanArch.Infrastructure\obj\Debug\net6.0\CleanArch.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\vasundharask\source\repos\BaseSetup\CleanArch.Infrastructure\obj\Debug\net6.0\CleanArch.Infrastructure.csproj.CopyComplete
+C:\Users\vasundharask\source\repos\BaseSetup\CleanArch.Infrastructure\obj\Debug\net6.0\CleanArch.Infrastructure.dll
+C:\Users\vasundharask\source\repos\BaseSetup\CleanArch.Infrastructure\obj\Debug\net6.0\refint\CleanArch.Infrastructure.dll
+C:\Users\vasundharask\source\repos\BaseSetup\CleanArch.Infrastructure\obj\Debug\net6.0\CleanArch.Infrastructure.pdb
+C:\Users\vasundharask\source\repos\BaseSetup\CleanArch.Infrastructure\obj\Debug\net6.0\CleanArch.Infrastructure.genruntimeconfig.cache
+C:\Users\vasundharask\source\repos\BaseSetup\CleanArch.Infrastructure\obj\Debug\net6.0\ref\CleanArch.Infrastructure.dll
